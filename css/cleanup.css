@@ -1,1 +1,31 @@
-/* write your override styles here */
+div#wall {
+    background: none;
+}
+
+div.tag-1,
+div#tag-2,
+div#tag-3,
+div#tag-4,
+div#tag-5,
+div#tag-6,
+div#tag-7 {
+    background: none;
+}
+
+html body div { */
+    background: none;
+}
+
+html body div[class] {
+    background: none;
+    background-image: none;
+}
+
+div.tag-1, div#tag-2, div#tag-3, div#tag-4, div#tag-5, div#tag-6, div#tag-7 {
+    background-image: none;
+    background: none;
+}
+
+div#wall div {
+    background-image: none;
+}
